@@ -1,0 +1,138 @@
+# -*- coding: utf-8 -*-
+x=len('1''2''3''4')
+print(x)
+
+
+print('下一题')
+input('请输入任意字符：')
+#while循环
+sum=0
+n=1
+while n<=99:
+    sum=sum+n
+    n=n+2
+    if n==101:
+        print(sum)
+
+sum=0
+n=99
+while n>0:
+    sum=sum+n
+    n=n-2
+    if n<1:
+        print(sum)
+
+
+print('下一题')
+input('请输入任意字符：')
+#range()函数练习
+for x in range(8):
+    print(x)
+
+s=range(101)
+sum=0
+for x in s:
+    sum=sum+x
+    if x==100:
+        print(sum)
+
+print('下一题')
+input('请输入任意字符：')
+sum=0
+for x in [10,20,30,40,50,60,70,80,90,100]:
+    sum=sum+x
+    if x==10:
+        print(sum)
+    else:
+        print('这是循环')
+
+print('下一题')
+input('请输入任意字符：')
+sum=0
+for x in [10,20,30,40,50,60,70,80,90,100]:
+    sum=sum+x
+    if x==100:
+        print(sum)
+
+print('下一题')
+input('请输入任意字符：')
+#循环练习
+L=[10,22,3]
+for n in L:
+    print('hello,%s'%n)
+
+
+print('下一题')
+input('请输入任意字符：')
+#计算身高体重指数
+height=1.75
+weight=80.5
+bmi=80.5/(1.75*1.75)
+
+if bmi<18.5:
+    print('过轻')
+elif bmi<25:
+    print('正常')
+elif bmi<28:
+    print('过重')
+elif bmi<32:
+    print('肥胖')
+else:
+    print('严重肥胖')
+print('小明身高%f,体重%f,BMI为%f'%(height,weight,bmi))
+
+
+print('下一题')
+input('请输入任意字符：')
+#计算身高体重指数
+height=float(input('请输入你的身高：'))
+weight=float(input('请输入你的体重：'))
+bmi=weight/(height*height)
+if bmi<18.5:
+    print('你的体重过轻')
+elif 18.5<=bmi<25:
+    print('你的体重正常')
+elif 25<=bmi<28:
+    print('你的体重过重')
+elif 28<=bmi<32:
+    print('你有肥胖的趋向')
+elif 32<=bmi:
+    print('你现在严重肥胖')
+print('这道练习已结束，欢迎开始下一道题')
+
+
+print('下一题')
+input('请输入任意字符：')
+#条件判断练习
+birst=int(input('生日：'))
+if birst>1990:
+    print('你是90后哈')
+elif birst>1980:
+    print('80后你好')
+elif birst>1900:
+ print('(｡･∀･)ﾉﾞ嗨 你好 二十世纪的人类')
+
+
+
+print('下一题')
+input('请输入任意字符：')
+#条件判断练习
+if [2,3]:
+    print('true')
+else:
+    print('false')
+
+
+
+
+print('下一题')
+input('请输入任意字符：')
+#检测当前Python版本号
+import sys
+if sys.version >'3':
+    PY3=True
+    print('python的版本是：')
+    print('3')
+else:
+    PY3=False
+    print('2')
