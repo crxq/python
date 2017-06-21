@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
+
+
 input('请输入回车进入下一题')
 #dict字典的索引
 dict={'input':12,'print':55,'adb':98}
@@ -21,6 +23,50 @@ print('adb的值为：'+n)
 input('请输入回车进入下一题')
 x=len('1''2''3''4')
 print(x)
+
+
+
+#continue跳过当前循环，直接开始下次
+input('请输入回车进入下一题')
+n=0
+while n<10:
+    n=n+1
+    print(n)
+
+
+n=0
+while n<10:
+    n=n+1
+    if n%2==0:
+        continue
+    print(n)
+
+
+n=0
+while n<10:
+    n=n+1
+    if n%2==0:
+        break
+    print(n)
+
+
+#break中断循环
+input('请输入回车进入下一题')
+n=1
+while n<=100:
+    print(n)
+    n = n + 1
+print('end')
+
+
+n=1
+while n<=100:
+    if n>10:
+        break
+    print(n)
+    n = n + 1
+print('end')
+
 
 
 input('请输入回车进入下一题')
@@ -125,7 +171,7 @@ if birst>1990:
 elif birst>1980:
     print('80后你好')
 elif birst>1900:
- print('(｡･∀･)ﾉﾞ嗨 你好 二十世纪的人类')
+    print('(｡･∀･)ﾉﾞ嗨 你好 二十世纪的人类')
 
 
 
