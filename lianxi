@@ -2,6 +2,14 @@
 
 
 
+#set去掉字符串中的重复字母
+s='aabbccdd'
+list=['a','a','b','b','c','c','d','d']
+#s1=set(list)
+#s2=str(set(list))
+print(str(set(list)))
+
+
 
 input('请输入回车进入下一题')
 #dict字典的索引
