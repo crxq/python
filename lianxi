@@ -1,5 +1,13 @@
 # -*- coding: utf-8 -*-
 #函数
+
+
+
+#空函数
+def nop():
+    pass
+
+
 input('请输入回车进入下一题')
 #自定义函数
 def my_abs(x):
@@ -8,9 +16,20 @@ def my_abs(x):
     else:
         return -x
 
-float1=float(input('请输入一个数：'))
-float2=my_abs(float1)
-print('这个数的绝对值为：%0.2f'%float2)
+float1 = float(input('请输入一个数：'))
+float2 = my_abs(float1)
+print('这个数的绝对值为：%0.2f' % float2)
+
+
+#自定义参数类型
+def my_abs(x):
+    if not isinstance(x,(int,float)):
+        raise TypeError('参数类型错了')
+    if x>=0:
+        return x
+    else:
+        return -x
+
 
 
 input('请输入回车进入下一题')
