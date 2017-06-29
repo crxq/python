@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
 #函数
+input('请输入回车进入下一题')
+#自定义函数
+def my_abs(x):
+    if x>=0:
+        return x
+    else:
+        return -x
 
-
+float1=float(input('请输入一个数：'))
+float2=my_abs(float1)
+print('这个数的绝对值为：%0.2f'%float2)
 
 
 input('请输入回车进入下一题')
